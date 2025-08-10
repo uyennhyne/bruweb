@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trích xuất mã an toàn</title>
+    <title>BRU LẤY CODE</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -51,10 +51,10 @@
 </head>
 <body>
     <div class="container">
-        <h2>Trích xuất mã an toàn</h2>
-        <p>Dán văn bản chứa mã an toàn vào ô dưới đây:</p>
-        <textarea id="inputText" placeholder="Dán văn bản ở đây..."></textarea>
-        <button onclick="extractCode()">Trích xuất mã</button>
+        <h2>BRU LẤY CODE</h2>
+        <p>Bru:</p>
+        <textarea id="inputText" placeholder="Bru..."></textarea>
+        <button onclick="extractCode()">Bru</button>
         <div id="result"></div>
     </div>
 
@@ -69,7 +69,7 @@
             if (startIndex >= searchText.length && code.match(/^\d{6}$/)) {
                 resultDiv.innerText = `${code}`;
             } else {
-                resultDiv.innerText = "Không tìm thấy mã an toàn hoặc mã không hợp lệ!";
+                resultDiv.innerText = "VL!";
             }
         }
     </script>
